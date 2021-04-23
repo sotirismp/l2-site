@@ -1,11 +1,11 @@
 <?php
 # IP DO DEDICADO
-$ip = "localhost";
+$ip = "sql11.freesqldatabase.com";
 // Connect PHP PDO
-$connect = 'mysql:host=localhost;dbname=l2jdb';
+$connect = 'mysql:host=sql11.freesqldatabase.com;dbname=sql11407710';
 
 try {
-	$db = new PDO($connect,'root','');
+	$db = new PDO($connect,'sql11407710','MBmPjkJ7Lm');
 	$db->setattribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
 	echo $e->getMessage();
