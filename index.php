@@ -5,7 +5,7 @@ $loginserver = @fsockopen($ip, 2106, $errno, $errstr, 0.1);
 ?>
 <!doctype html>
 <html>
-
+test
 <head>
 <meta charset="utf-8">
 <title><?php 
