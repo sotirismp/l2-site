@@ -6,3 +6,5 @@ CREATE TABLE `characters` (
   `pkkills` int(11) DEFAULT NULL,
   PRIMARY KEY (`Name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--test
